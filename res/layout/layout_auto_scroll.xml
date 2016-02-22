@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#ffffff">
+
+    <com.luomo.demo.view.AutoScrollTextView
+            android:id="@+id/TextViewNotice"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:text="默认的文本123456789101112131415161718192021222324252627282930313233343536"
+            android:textColor="#2fffff"
+            android:inputType="text"
+            android:textSize="30dp"/>
+</LinearLayout>
